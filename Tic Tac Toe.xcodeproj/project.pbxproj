@@ -10,9 +10,33 @@
 		000000000000000000000120 /* Tic Tac Toe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tic Tac Toe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		E415495730AB9A0000F6F994 /* Exceptions for "Tic Tac Toe" folder in "Tic Tac Toe" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				README.md,
+			);
+			target = 000000000000000100000000 /* Tic Tac Toe */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		E415495830AB9A0000F6F994 /* Exceptions for "Tic Tac Toe" folder in "Compile Sources" phase from "Tic Tac Toe" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 000000000000000120000000 /* Sources */;
+			membershipExceptions = (
+				README.md,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		000000000000000000000010 /* Tic Tac Toe */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E415495730AB9A0000F6F994 /* Exceptions for "Tic Tac Toe" folder in "Tic Tac Toe" target */,
+				E415495830AB9A0000F6F994 /* Exceptions for "Tic Tac Toe" folder in "Compile Sources" phase from "Tic Tac Toe" target */,
+			);
 			path = "Tic Tac Toe";
 			sourceTree = "<group>";
 		};
